@@ -1,0 +1,21 @@
+Write a program in C to show the basic declaration of pointer.
+
+
+
+#include <stdio.h>
+
+int main() {
+    int g =20,r,s;
+    int *z=&g;
+    printf("\nthe pinter address of z is %d",z);
+    printf("\nthe value of z is %d",*z);
+    printf("\nthe address of z is %d",&z);
+
+
+    return 0;
+}
+
+********OUTPUT***************
+the pinter address of z is 620599436
+the value of z is 20
+the address of z is 620599440

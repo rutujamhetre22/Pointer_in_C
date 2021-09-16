@@ -1,0 +1,33 @@
+// Write a program in C to demonstrate how to handle the pointers in the program.
+
+
+#include <stdio.h>
+
+int main() {
+    int *ab;
+    int m=29;
+    printf("address of m:%p\n",&m);
+    printf("value  of m:%d\n",m);
+    ab=&m;
+    printf("address of m:%p\n",&m);
+        printf("value  of m:%d\n",*ab);
+        m =22;
+        printf("the address of m is %p",m);
+            printf("value of m:%p\n",m);
+    *ab=4;
+        printf("address of m:%p\n",&ab);
+            printf("value of m:%d\n",&m);
+            
+return 0;
+}
+
+
+***********Output***********
+
+address of m:0x7ffdd741a05c
+value  of m:29
+address of m:0x7ffdd741a05c
+value  of m:29
+the address of m is 0x16value of m:0x16
+address of m:0x7ffdd741a060
+value of m:-683564964

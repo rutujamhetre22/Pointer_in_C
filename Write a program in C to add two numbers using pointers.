@@ -1,0 +1,26 @@
+// Write a program in C to add two numbers using pointers.
+
+
+#include <stdio.h>
+
+int main() {
+    int First_n, Second_n,sum,*ptr,*qtr;
+    printf("Enter the first numbers=");
+    scanf("%d",&First_n);
+     printf("Enter the Secand numbers=");
+    scanf("%d",&Second_n);
+    ptr =First_n;
+    qtr=Second_n;
+    sum =Second_n+First_n;
+    printf("The sum of two pointers = %d",sum);
+    
+    return 0;
+    
+    
+    
+}
+
+************output************
+Enter the first numbers12
+Enter the Secand numbers45
+The sum of two pointers 57

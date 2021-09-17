@@ -1,0 +1,23 @@
+//Pointer to Pointer
+
+#include<stdio.h>  
+int main(){  
+int a =12;
+int *p=&a;
+int **pp=&p;
+printf("the address of a is %p\n",p);
+printf("the address of p is %p\n",pp);
+printf("the value of p is %d\n",p);
+printf("the value of pp is %d\n",pp);
+return 0;  
+}  
+
+
+
+//**********output**********
+/tmp/mt2GSGWRyY.o
+the address of a is 0x7fff066171e4
+the address of p is 0x7fff066171e8
+the value of p is 107049444
+the value of pp is 107049448
+

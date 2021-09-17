@@ -1,0 +1,16 @@
+// Decalaring Pointers
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=10;
+    int *p=&a;
+    printf("The address of p is%p\n",p);
+    printf("The valur of a p is%d",*p);
+    
+    return 0;
+}
+
+*******Output*********
+The address of p is0x7ffe258747bc
+The valur of a p is10

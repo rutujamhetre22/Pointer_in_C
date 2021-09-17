@@ -1,0 +1,33 @@
+Defination
+
+1) Pointer : Pointer is a variable is store the address of the another variable
+
+2)Pointer To Pointer : the one pointer are point to address of another pointer.
+
+*Pointer Declaration 
+int 1=a=10;
+int *p=&a;
+
+pointer Decalation in array
+int a[10];
+int *p[10]=&a;
+
+Pointer Declaration of Function
+void  show(int)
+void(*p)(int)=&dispaly;
+
+Pointer Declaration of Structures
+struct s{
+int i;
+int f;
+}r;
+struct s *p=&r;
+
+Advantages of pointers
+1)reduce the code and Inprove the performance
+2)Access the Memory Location
+3)Return the multiple value of function
+
+
+
+
